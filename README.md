@@ -1,3 +1,10 @@
+[demo page](https://nicehorse06.github.io/demo-collections/dist/index.html)
+
+此專案為 react demo + 專案收集頁面
+
+參考網站
+* [30天React從入門到入坑](https://ithelp.ithome.com.tw/users/20107317/ironman/1261)
+
 * 此node版本為 6.1.0
 
 * 功能為每秒更新時間
