@@ -8,9 +8,9 @@ module.exports = {
         exclude: /node_modules/,  // 除了 node_modules 檔
         use: {
           loader: 'babel-loader', // 使用這個 loader
-          options: {
-            presets: ['env']  // 所有語法
-          }
+          query: {
+            presets: ['env', 'react'],
+          },
         }
       },
       {

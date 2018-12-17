@@ -1,6 +1,8 @@
-const setTime = () => {
-    const now = new Date();
-    document.querySelector('.time').innerHTML = now
-}
+import React from 'react'
+const now = new Date();
 
-export default setTime
+export default class Time extends React.Component {
+	render() {
+		return <div>{now.toString()}</div>
+	}
+}
