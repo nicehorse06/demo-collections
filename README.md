@@ -2,6 +2,8 @@
 
 此專案為 react demo + 專案收集頁面
 
+[此專案最小React設定的tag](https://github.com/nicehorse06/demo-collections/tree/v0.0.1)
+
 參考網站
 * [30天React從入門到入坑](https://ithelp.ithome.com.tw/users/20107317/ironman/1261)
 
