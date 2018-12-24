@@ -1,14 +1,17 @@
 import React from 'react'
 import { render } from 'react-dom';
-import Time from './time'
+import Header from './header'
+import Body from './body'
+import Footer from './footer'
+
 
 class HelloWorld extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Hello World, it's Jimmy Website</h1>
-				<div>現在時間為：</div>
-				<Time />
+				<Header />
+				<Body />
+				<Footer />
 			</div>
 		)
 	}

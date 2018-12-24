@@ -2,6 +2,13 @@
 
 此專案為 react demo + 專案收集頁面
 
+## todo
+
+1. 加上更多CSS
+2. 規劃網站內容配置
+3. 導入 Redux 
+4. 加入 React 應用的頁面
+
 [此專案最小React設定的tag](https://github.com/nicehorse06/demo-collections/tree/v0.0.1)
 
 參考網站
