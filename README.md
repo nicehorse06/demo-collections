@@ -9,27 +9,6 @@
 3. 導入 Redux 
 4. 加入 React 應用的頁面
 
-[此專案最小React設定的tag](https://github.com/nicehorse06/demo-collections/tree/v0.0.1)
-
-參考網站
-* [30天React從入門到入坑](https://ithelp.ithome.com.tw/users/20107317/ironman/1261)
-
-* [w3shcool 排版樣式參考](https://www.w3schools.com/css/css_templates.asp)
-
-* [The best “styling in React” tutorial you’ve ever seen](https://blog.logrocket.com/the-best-styling-in-react-tutorial-youve-ever-seen-676f1284b945)
-
-* [React 初学者教程4: 在 React 中设置样式](https://www.w3cplus.com/react/styling-in-react.html)
-
-* [React篇: TodoList程式 + 樣式(Style)](https://github.com/eyesofkids/ironman2017/tree/master/day19_todolist_style/)
-
-* [[React學習筆記] React Component的inline style](https://andy6804tw.github.io/2018/02/02/styling-react-components/)
-
-* 此node版本為 6.1.0
-
-* 功能為每秒更新時間
-
-* 運用webpack babel轉檔、引入CSS module
-
 ## 使用方法：
 
 1. git clone 這個專案
@@ -47,3 +26,22 @@
 * output輸出為預設值 ./dist/main.js
 
 * 詳細參閱文件[url](https://webpack.js.org/concepts/)
+
+## 特殊的 tag
+
+* [此專案最小React設定的tag](https://github.com/nicehorse06/demo-collections/tree/v0.0.1)
+
+## 參考網站
+* [30天React從入門到入坑](https://ithelp.ithome.com.tw/users/20107317/ironman/1261)
+
+* [w3shcool 排版樣式參考](https://www.w3schools.com/css/css_templates.asp)
+
+* [The best “styling in React” tutorial you’ve ever seen](https://blog.logrocket.com/the-best-styling-in-react-tutorial-youve-ever-seen-676f1284b945)
+
+* [React 初学者教程4: 在 React 中设置样式](https://www.w3cplus.com/react/styling-in-react.html)
+
+* [React篇: TodoList程式 + 樣式(Style)](https://github.com/eyesofkids/ironman2017/tree/master/day19_todolist_style/)
+
+* [[React學習筆記] React Component的inline style](https://andy6804tw.github.io/2018/02/02/styling-react-components/)
+
+* [手把手教你用React實現一個簡單的個人部落格](https://codertw.com/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC%E5%B7%A5%E5%85%B7/26994/)
