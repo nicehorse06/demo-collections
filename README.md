@@ -4,7 +4,7 @@
 
 ## todo
 
-1. 加上更多CSS
+1. 加上更多CSS，選定一下CSS in React方案
 2. 規劃網站內容配置
 3. 導入 Redux 
 4. 加入 React 應用的頁面
@@ -13,6 +13,16 @@
 
 參考網站
 * [30天React從入門到入坑](https://ithelp.ithome.com.tw/users/20107317/ironman/1261)
+
+* [w3shcool 排版樣式參考](https://www.w3schools.com/css/css_templates.asp)
+
+* [The best “styling in React” tutorial you’ve ever seen](https://blog.logrocket.com/the-best-styling-in-react-tutorial-youve-ever-seen-676f1284b945)
+
+* [React 初学者教程4: 在 React 中设置样式](https://www.w3cplus.com/react/styling-in-react.html)
+
+* [React篇: TodoList程式 + 樣式(Style)](https://github.com/eyesofkids/ironman2017/tree/master/day19_todolist_style/)
+
+* [[React學習筆記] React Component的inline style](https://andy6804tw.github.io/2018/02/02/styling-react-components/)
 
 * 此node版本為 6.1.0
 

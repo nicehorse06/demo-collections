@@ -1,8 +1,11 @@
 import React from 'react'
-const now = new Date();
 
 export default class Footer extends React.Component {
 	render() {
-		return <footer>footer</footer>
+		const footer_style = {
+			backgroundColor: '#f1f1f1',
+			padding: '10px',
+		}
+		return <footer style={footer_style}>footer</footer>
 	}
 }
