@@ -9,6 +9,10 @@
 3. 導入 Redux 
 4. 加入 React 應用的頁面
 
+* 整理 [game-score-recorder](https://github.com/nicehorse06/game-score-recorder)
+* [redux_count_button_test](https://github.com/nicehorse06/redux_count_button_test)
+* [react_test](https://github.com/nicehorse06/react_test)
+
 ## 使用方法：
 
 1. git clone 這個專案
