@@ -54,6 +54,8 @@
 
 ## React Redux component的初始創建流程
 
+* 實作代碼：[簡單的 Redux 加法器](https://codesandbox.io/s/z2kx5y96r4)
+
 在此<Counter /> 用來計算加法用的函式，裡面的變數依賴了 Redux 中的 value 去計算數量，還繼承了一個函式onIncreaseClick 可以 dispatch(action) 去+1 redux中的 value值
 
 ### 1.建立初始的<Counter /> component，僅需寫一些hello world確定有顯示在畫面上，完整的功能需依賴了兩個prop，value和onIncreaseClick
