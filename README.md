@@ -49,3 +49,77 @@
 * [[React學習筆記] React Component的inline style](https://andy6804tw.github.io/2018/02/02/styling-react-components/)
 
 * [手把手教你用React實現一個簡單的個人部落格](https://codertw.com/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC%E5%B7%A5%E5%85%B7/26994/)
+
+* [Redux 入门教程（一）：基本用法](https://medium.com/@nicehorse06/react-redux-component%E7%9A%84%E5%88%9D%E5%A7%8B%E5%89%B5%E5%BB%BA%E6%B5%81%E7%A8%8B-1796e0e97e42)
+
+## React Redux component的初始創建流程
+
+在此<Counter /> 用來計算加法用的函式，裡面的變數依賴了 Redux 中的 value 去計算數量，還繼承了一個函式onIncreaseClick 可以 dispatch(action) 去+1 redux中的 value值
+
+### 1.建立初始的<Counter /> component，僅需寫一些hello world確定有顯示在畫面上，完整的功能需依賴了兩個prop，value和onIncreaseClick
+```
+class Counter extends Component {
+  render() {
+    return (
+      <div> hello world </div>
+    )
+  }
+}
+ReactDOM.render(
+   <Counter /> ,
+   document.getElementById('root')
+)
+```
+### 2.依據state的資料結構定義 Reducer 函式，reducer 不依賴其他變數，定義的時候以預想 Action 的數量
+```
+function counter(state = { count: 0 }, action) {
+ const count = state.count
+ switch (action.type) {
+  case 'increase':
+   return { count: count + 1 }
+  default:
+  return state
+ }
+}
+```
+
+### 3.合併所有的Reducer，使用 createStore 函式把 reducer 帶入去定義 store
+`const store = createStore(counter)`
+
+### 4.依據state的可能 type 數量去定義不同type 的 action
+`const increaseAction = { type: 'increase' }`
+### 5.定義 mapStateToProps 和 mapDispatchToProps 兩個無依賴函式，這兩個函式是讓我們跟reducer 中的state能做交流唯一途徑，mapStateToProps 讓我們取出 reducer 的變數 value，mapDispatchToProps 能讓我們使用dispatch(action) 去改變 reducer 的 value 值
+```
+function mapStateToProps(state) {
+ return {
+  value: state.count
+ }
+}
+function mapDispatchToProps(dispatch) {
+ return {
+  onIncreaseClick: () => dispatch(increaseAction)
+ }
+}
+```
+### 6.使用 connect 函式把 mapStateToProps 、mapDispatchToProps、Counter得到Root component <App />
+```
+const App = connect(
+ mapStateToProps,
+ mapDispatchToProps
+)(Counter)
+```
+### 7.使用 Provider component class 並帶入store做參數、root component <App />子層，然後放入 ReactDOM.render()做渲染，自此我們的component已經可以使用 this.props 取用到reducer的狀態
+8. 在 <Counter /> 帶入 value, onIncreaseClick 來實現邏輯
+```
+class Counter extends Component {
+ render() {
+  const { value, onIncreaseClick } = this.props
+  return (
+   <div>
+    <span>{value}</span>
+    <button onClick={onIncreaseClick}>Increase</button>
+   </div>
+   )
+ }
+}
+```
