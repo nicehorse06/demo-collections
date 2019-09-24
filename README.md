@@ -1,4 +1,4 @@
-[demo page](https://nicehorse06.github.io/demo-collections/dist/index.html)
+[demo page](https://nicehorse06.github.io/react-demo/dist/index.html)
 
 此專案為 react demo + 專案收集頁面
 
