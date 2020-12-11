@@ -4,10 +4,11 @@
 
 ## todo
 
-1. 加上更多CSS，選定一下CSS in React方案
-2. 規劃網站內容配置
-3. 導入 Redux 
-4. 加入 React 應用的頁面
+* 了解 react + hooks
+* 了加上更多CSS，選定一下CSS in React方案
+* 了規劃網站內容配置
+* 了導入 Redux 
+* 了加入 React 應用的頁面
 
 * 整理 [game-score-recorder](https://github.com/nicehorse06/game-score-recorder)
 * [redux_count_button_test](https://github.com/nicehorse06/redux_count_button_test)
