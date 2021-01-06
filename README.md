@@ -13,6 +13,8 @@
 * 整理 [game-score-recorder](https://github.com/nicehorse06/game-score-recorder)
 * [redux_count_button_test](https://github.com/nicehorse06/redux_count_button_test)
 * [react_test](https://github.com/nicehorse06/react_test)
+* [React SSR | 從零開始實作 SSR — 基礎篇](https://medium.com/%E6%89%8B%E5%AF%AB%E7%AD%86%E8%A8%98/server-side-rendering-ssr-in-reactjs-part1-d2a11890abfc)
+* [深入但不淺出，React,Vue SEO 最佳化](https://medium.com/@milkmidi/%E6%B7%B1%E5%85%A5%E4%BD%86%E4%B8%8D%E6%B7%BA%E5%87%BA-react-vue-seo-%E6%9C%80%E4%BD%B3%E5%8C%96-f146a65886a6)
 
 ## 使用方法：
 
