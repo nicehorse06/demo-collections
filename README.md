@@ -52,6 +52,9 @@
 
 * [[React學習筆記] React Component的inline style](https://andy6804tw.github.io/2018/02/02/styling-react-components/)
 
+* [React技术揭秘](https://react.iamkasong.com/#%E5%AF%BC%E5%AD%A6%E8%A7%86%E9%A2%91)
+   * 本书的宗旨是打造一本严谨、易懂的React源码分析教程。
+
 * [手把手教你用React實現一個簡單的個人部落格](https://codertw.com/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC%E5%B7%A5%E5%85%B7/26994/)
 
 * [Redux 入门教程（一）：基本用法](https://medium.com/@nicehorse06/react-redux-component%E7%9A%84%E5%88%9D%E5%A7%8B%E5%89%B5%E5%BB%BA%E6%B5%81%E7%A8%8B-1796e0e97e42)
